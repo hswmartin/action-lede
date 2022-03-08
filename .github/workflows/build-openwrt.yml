@@ -142,7 +142,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: GZ_OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: GZ_OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}-squashfs-combined.img.gz
         path: ${{ env.FIRMWARE }}/*squashfs-combined.img.gz
 
     - name: Upload firmware to cowtransfer
