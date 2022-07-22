@@ -12,5 +12,5 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-sed -i 's/PKG_VERSION:=1.20.2/PKG_VERSION:=1.24.2/g' feeds/packages/net/tailscale/Makefile
-sed -i 's/9ecd054f241fd43d4d652cf411ba872f816e1a83a4a009966eff5377971bacb1/f1fe7770b4e372ace47c5b0ac4cbe21af95c3a6fb1828ee4f407fcfe35b7958f/g' feeds/packages/net/tailscale/Makefile
+#sed -i 's/PKG_VERSION:=1.20.2/PKG_VERSION:=1.24.2/g' feeds/packages/net/tailscale/Makefile
+#sed -i 's/9ecd054f241fd43d4d652cf411ba872f816e1a83a4a009966eff5377971bacb1/f1fe7770b4e372ace47c5b0ac4cbe21af95c3a6fb1828ee4f407fcfe35b7958f/g' feeds/packages/net/tailscale/Makefile
