@@ -1,0 +1,6 @@
+#!/bin/sh
+# Default to Argon: legacy Lua themes (e.g. ifit) break the ucode-based LuCI
+uci -q set luci.main.mediaurlbase='/luci-static/argon'
+uci -q commit luci
+rm -rf /tmp/luci-*
+exit 0
